@@ -7,7 +7,7 @@ public class Hola {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//imprimir mensaje
-		System.out.println("Bienvenido al curso");
+		System.out.println("Bienvenido al curso 2020");
 		
 		//capturar mensajes de consola
 		Scanner sc = new Scanner(System.in);
