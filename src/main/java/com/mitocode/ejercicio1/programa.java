@@ -1,4 +1,4 @@
-package sesion01;
+package com.mitocode.ejercicio1;
 
 import java.util.Scanner;
 
@@ -33,8 +33,26 @@ public class programa {
 		
 		System.out.println("Datos de la cuenta: ");
 		System.out.println(cuenta);
+		//deposito
+		System.out.println();
+		System.out.println("Ingrese el valor de deposito: ");
+		double monto = sc.nextDouble();
+		cuenta.deposito(monto);
+		System.out.println("Datos de la cuenta actualizados");
+		System.out.println(cuenta);
 		
-		cuenta.setNumeroCuenta(numeroCuenta);		
+		//retiro
+		System.out.println();
+		System.out.println("Ingrese el valor a retirar: ");
+		double montoRetiro = sc.nextDouble();
+		cuenta.retiro(montoRetiro);
+		System.out.println("Datos de la cuenta actualizados");
+		System.out.println(cuenta);
+		
+		sc.close();
+		
+		
+		//cuenta.setNumeroCuenta(numeroCuenta);		
 		
 	}
 

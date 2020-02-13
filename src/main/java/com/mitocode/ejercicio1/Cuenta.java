@@ -1,10 +1,16 @@
-package sesion01;
+package com.mitocode.ejercicio1;
 
 public class Cuenta {
 
 	private String numeroCuenta;
 	private String titular;
 	private double saldo;
+	
+	
+
+	public Cuenta() {
+		super();
+	}
 
 	public Cuenta(String numeroCuenta, String titular) {
 		super();
