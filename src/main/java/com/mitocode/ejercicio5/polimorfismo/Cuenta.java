@@ -1,10 +1,10 @@
-package com.mitocode.ejercicio1;
+package com.mitocode.ejercicio5.polimorfismo;
 
 public class Cuenta {
 
 	private String numeroCuenta;
 	private String titular;
-	private double saldo;
+	protected double saldo;
 	
 	
 
@@ -57,8 +57,6 @@ public class Cuenta {
 	
 	public void retiro(double monto) {
 		saldo -= monto + 5.0;
-		
-		//otra forma seria saldo = saldo -monto
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package com.mitocode.ejercicio4.modificadores;
+package com.mitocode.ejercicio5.polimorfismo;
 
 public class CuentaNegocio extends Cuenta{
 	
@@ -28,8 +28,7 @@ public class CuentaNegocio extends Cuenta{
 	
 	public void prestamo(double monto) {
 		if (monto <= limitePrestamo) {
-			//saldo += monto - 10.0;
-			saldo = saldo - monto - 10.0;
+			saldo += monto - 10.0;
 			
 		}
 	}
